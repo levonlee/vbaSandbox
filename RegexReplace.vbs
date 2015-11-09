@@ -19,3 +19,6 @@ Public Function RegexReplace( _
     End If
     RegexReplace = rtn
 End Function
+
+'You can use it in your query: SELECT left(RegexReplace(aField,'\s+',' '), 30)
+'This will replace multiple spaces with a single space
